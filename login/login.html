@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>LOGIN FIXER GO</title>
+</head>
+
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <!-- Tabs Titles -->
+            <h2 class="active">INICIAR SESION</h2>
+            <a class="inactive underlineHover" href="#" id="registerButton">REGISTRARTE</a>
+
+            <!-- Icon -->
+            <div class="fadeIn first">
+                <img src="/img/FixerGo si nombre-sin fondo.png" id="icon" alt="User Icon" />
+            </div>
+
+
+            <form id="loginForm" method="POST" action="login.php">
+                <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+                <input type="text" id="password" class="fadeIn third" name="password" placeholder="password">
+                <input type="submit" class="fadeIn fourth" value="INICIAR SESION">
+            </form>
+
+            <div id="registerModal" class="modal">
+                <div class="modal-content">
+                    <button class="close">&times;</button>
+                    <h2>Selecciona una opción:</h2>
+                    <button id="clientButton" class="custom-button" data-tooltip="Imagen Cliente">
+                        <img src="/img/cli.png" alt="Cliente Image">
+                        CLIENTE
+                    </button>
+                    <button id="workerButton" class="custom-button" data-tooltip="Imagen Trabajador">
+                        <img src="/img/tra.png" alt="Trabajador Image">
+                        TRABAJADOR
+                    </button>
+                </div>
+            </div>
+            
+            <div id="clientForm" class="modal">
+                <div class="modal-content">
+                    <button class="close">&times;</button>
+                    <h2>Formulario para clientes:</h2>
+                    <form class="resposicliente" action="registroclientes.php" method="post" enctype="multipart/form-data">
+                        <input type="text" id="clientUsername" class="fadeIn third" name="clientUsername" placeholder="Nombre de usuario" required>
+                        <input type="email" id="clientEmail" class="fadeIn second" name="clientEmail" placeholder="Correo electrónico" required>
+                        <input type="password" id="clientPassword" class="fadeIn fourth" name="clientPassword" placeholder="Contraseña" required>
+                        <input type="submit" class="fadeIn fourth" name="register" value="Registrarse">
+                    </form>
+                </div>
+            </div>
+
+            <div id="workerForm" class="modal">
+                <div class="modal-content">
+                    <button class="close">&times;</button>
+                    <h2>Formulario para trabajadores:</h2>
+                    <form class="resposicliente" action="registrotrab.php" method="post" enctype="multipart/form-data">
+                        <input type="text" id="workerFullName" class="fadeIn second" name="workerFullName" placeholder="Nombre completo" required>
+                        <input type="email" id="workerEmail" class="fadeIn seventh" name="workerEmail" placeholder="Correo electrónico" required>
+                        <input type="password" id="workerPassword" class="fadeIn eighth" name="workerPassword" placeholder="Contraseña" required>
+                        <input type="text" id="workerBirthDate" class="fadeIn third" name="workerBirthDate" placeholder="Fecha de nacimiento" required>
+                        <input type="text" id="workerphone" class="fadeIn nine" name="workerphone" placeholder="Teléfono" required>
+                        <input type="text" id="workerJob" class="fadeIn fourth" name="workerJob" placeholder="Trabajo / Oficio" required>
+                        <input type="text" id="experiencia" class="fadeIn ten" name="experiencia" placeholder="Experiencia" required>
+                        <textarea id="workerDescription" class="fadeIn fifth" name="workerDescription" placeholder="Descripción de trabajos" required></textarea>
+                        <input type="file" id="workerImage" class="fadeIn eleventh" name="workerImage" required>
+                        <input type="text" id="workerLocation" class="fadeIn sixth" name="workerLocation" placeholder="Ubicación (Ciudad, Estado)" required>
+            
+                        <!-- Campos adicionales -->
+                        <input type="text" id="id_oficial" class="fadeIn second" name="id_oficial" placeholder="ID Oficial">
+                        <input type="text" id="cedula_profesional" class="fadeIn eleventh" name="cedula_profesional" placeholder="Cédula Profesional" required>
+                        <input type="text" id="educacion" class="fadeIn eighth" name="educacion" placeholder="Educación">
+            
+                        <input type="submit" class="fadeIn ninth" name="register" value="Registrarse">
+                    </form>
+                </div>
+            </div>
+
+            <div id="formFooter">
+                <a class="underlineHover" href="#">¿Olvidaste la contraseña?</a>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
+
+
+<img src="../imgtodo/1690169312_63046d9e90fdca2543e3fe5b858f5d70.jpg" alt="" class="rounded-circle me-3" width="50">

@@ -1,0 +1,84 @@
+{
+    "usuario1": 
+    {
+        "perfilimg": "/img/avatar-gen118025326f2134642e8fe83f8bd3b5ad.jpg",
+        "nombre": "Luisa Mara López Portillo",
+        "trabajo": "Electricista",
+        "calif_trabajo": "4.0",
+        "num_compl": "410",
+        "ubicacion": "Tixkokob Yucatán",
+        "calif": "<i class='bi bi-star-fill'></i><i class='bi bi-star-fill'></i><i class='bi bi-star-fill'></i><i class='bi bi-star-fill'></i><i class='bi bi-star-half'></i>",
+        "descripcion1": "Soy Luisa, una electricista con más de 8 años de experiencia en el campo. Durante mi carrera, he trabajado en una variedad de proyectos de diferentes tamaños y con muchos tipos de personas, me gusta...",
+        "precio": "<i class='bi bi-coin'></i><i class='bi bi-coin'></i>",
+        "imgpost1": "../img/electricista1.jpg",
+        "imgpost2": "../img/electricista2.jpg",
+        "imgpost3": "../img/electricista3.jpg",
+        "descripcion2": "Soy Luisa, una electricista con más de 8 años de experiencia en el campo. Durante mi carrera, he trabajado en una variedad de proyectos de diferentes tamaños y con muchos tipos de personas, he trabajado en distintos proyectos y tengo experiencia en cualquier tipo de trabajo que requiera de un electricista, tanto como instalar ventiladores de techo, etc.",
+        "correo": "Mairialui@gmail.com",
+        "numero": "9993456728",
+        "tipo": "Trabajador",
+        "exp": "15 años en múltiples proyectos",
+        "edu": "Ingeniería eléctrica",
+        "id_oficial": "2801-1234-5678-910A",
+        "cedula_pro": "CARP-2005-ABC1234",
+        "comentarios": 
+        [
+            {
+                "nombre": "Juan Pérez",
+                "post": "Excelente servicio",
+                "calificacion": "5"
+            },
+            {
+                "nombre": "María Gómez",
+                "post": "Se robó mi tanque de gas",
+                "calificacion": "1"
+            },
+            {
+                "nombre": "Carlos Rodríguez",
+                "post": "Siempre puntual",
+                "calificacion": "4.5"
+            }
+        ]
+    },
+    "usuario2": 
+    {
+        "perfilimg": "/img/avatar2.jpg",
+        "nombre": "José Rodríguez",
+        "trabajo": "Plomero",
+        "calif_trabajo": "4.2",
+        "num_compl": "320",
+        "ubicacion": "Ciudad de México",
+        "calif": "<i class='bi bi-star-fill'></i><i class='bi bi-star-fill'></i><i class='bi bi-star-fill'></i><i class='bi bi-star-half'></i>",
+        "descripcion1": "Soy José, un plomero con más de 10 años de experiencia en el campo. Me especializo en reparaciones de tuberías, instalaciones de baños y solución de problemas de fugas de agua. Estoy comprometido con brindar un servicio de calidad y satisfacción para mis clientes.",
+        "precio": "<i class='bi bi-coin'></i><i class='bi bi-coin'></i><i class='bi bi-coin'></i>",
+        "imgpost1": "../img/plomero1.jpg",
+        "imgpost2": "../img/plomero2.jpg",
+        "imgpost3": "../img/plomero3.jpg",
+        "descripcion2": "A lo largo de mi carrera, he trabajado en proyectos residenciales y comerciales, brindando soluciones eficientes y duraderas. Si tienes algún problema de plomería, no dudes en contactarme para obtener un servicio confiable y profesional.",
+        "correo": "jose.plomero@gmail.com",
+        "numero": "5551234567",
+        "tipo": "Trabajador",
+        "exp": "10 años en plomería",
+        "edu": "Certificado en plomería",
+        "id_oficial": "3456-7890-1234",
+        "cedula_pro": "PLM-2010-XYZ5678",
+        "comentarios": 
+        [
+            {
+                "nombre": "Laura Méndez",
+                "post": "Excelente trabajo, resolvió mi problema de tuberías",
+                "calificacion": "4.8"
+            },
+            {
+                "nombre": "Carlos Jiménez",
+                "post": "Llegó tarde a la cita",
+                "calificacion": "3.5"
+            },
+            {
+                "nombre": "Ana García",
+                "post": "Muy amable y profesional",
+                "calificacion": "4.9"
+            }
+        ]
+    }
+}

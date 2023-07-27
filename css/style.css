@@ -1,0 +1,300 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+#nav_img1 {
+  width: 10%;
+}
+
+#nav_img2 {
+  width: 5%;
+}
+
+@media (max-width: 767px) {
+  #nav_img1,
+  #nav_img2 {
+      display: inline;
+      width: 20%;
+      margin: 0 5px;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  body {
+      overflow-x: auto;
+  }
+  .post_media {
+      overflow-x: scroll;
+  }
+  .modal-dialog {
+      max-width: 90%;
+  }
+  .carousel {
+      max-width: 70%;
+      margin: 0;
+  }
+}
+
+.navbar {
+  background-color: #01430e;
+}
+
+.navbar div form button {
+  background-color: #ffffff;
+  color: black;
+}
+
+.post {
+  width: 50%;
+  background-color: #c7daaa;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.post_top {
+  background-color: #01430e;
+  height: 1rem;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 10px;
+}
+
+.post_user_info {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 10px;
+  
+}
+.post_user_info img {
+  width: 20%;
+  height: 20%;
+  border-radius: 100px;
+}
+.user_info {
+  background-color: #0c9888;
+  width: 100%;
+  height: 100%;
+  padding: 9px;
+  border-radius: 10px;
+}
+
+.content-user {
+  background-color: #c2c3c0;
+}
+
+.modal-heade1 {
+  background: #18421d;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 155px;
+}
+.modal-header {
+  background: #0f0440;
+}
+.modal-header2 {
+  background: #0a6771;
+}
+
+.custom-footer {
+  background-color: #02691c !important;
+}
+
+.modal-avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: flex;
+}
+.contcent{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.custom-modal .modal-dialog {
+  width: 1000px;
+  height: auto;
+}
+
+.nav-position {
+  margin-left: -25px;
+}
+
+.nav-position2 {
+  margin-right: -25px;
+}
+
+.user_info2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.user_info3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.post_user_info img {
+  width: 20%;
+  height: 20%;
+  border-radius: 100px;
+}
+
+.bi-check-circle-fill {
+  color: #03E335;
+}
+
+.bi-briefcase-fill {
+  color: #FF7E25;
+}
+
+.bi-star-fill,
+.bi-star-half {
+  color: #FFF845;
+}
+
+.post_button {
+  padding: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.post_media {
+  background-color: #e7e7e7;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.post_media img {
+  width: 400px;
+  height: auto;
+}
+
+.post_access {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.bi-coin {
+  color: green;
+}
+
+.btn1 {
+  background-color: #93eab1;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.btn2 {
+  background-color: #14092b;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.btn3 {
+  background-color: #0e5f58;
+  border-radius: 5px;
+}
+
+.btn4 {
+  background-color: #569d3e;
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  #nav_img1 {
+      display: none;
+  }
+  #nav_img2 {
+      display: none;
+  }
+  .post {
+      width: 100%;
+      margin-left: 0;
+  }
+  .post_user_info {
+      flex-direction: column;
+      gap: 10px;
+  }
+  .user_info {
+      width: 100%;
+  }
+  .post_media {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .post_media img {
+      width: 100%;
+      height: auto;
+  }
+  .post_button {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+  }
+  .post_access {
+      flex-direction: row;
+      gap: 5px;
+  }
+}
+
+.scrolling-content {
+  background-color: #fffbf8;
+}
+
+.carousel {
+  max-width: 900px; /* Ajusta el ancho máximo para mostrar tres imágenes */
+  margin: 0 auto; /* Centrar horizontalmente el carrusel */
+}
+
+.carousel-item img {
+  width: 900px; /* Ajustar las imágenes al ancho del carrusel */
+  height: 800px; /* Mantener la proporción de aspecto */
+  margin: 0 auto; /* Centrar horizontalmente las imágenes en el carrusel */
+}
+
+.card-header {
+  background-color: #ededee !important;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 50px;
+  cursor: pointer;
+  margin-top: -25px;
+}
+
+.post_user_info3 {
+  background-color: #345414 !important;
+  color: #ffffff;
+}
+
+.bi-star-fill {
+  color: #d4c42e;
+}
+
+.bi-star-half {
+  color: #d4c42e;
+}
+
+.bi-coin {
+  color: green;
+  font-size: xx-large;
+}
